@@ -1,5 +1,20 @@
 <template>
-    <h1>
-        How To Install Vue 3 in Laravel 10 : Laravel SPA :
-    </h1>
+    <div>
+        <div class="wrapper">
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <router-view></router-view>
+            </div>
+        </div>
+    </div>
 </template>
+<script>
+
+    export default {
+        setup() {},
+        components: {
+
+        }
+    }
+</script>
