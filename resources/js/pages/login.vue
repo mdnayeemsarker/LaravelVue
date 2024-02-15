@@ -28,16 +28,16 @@ import axios from 'axios';
 
 export default {
     setup() {
-        const route = useRouter();
-        const store = useStore();
+        const route = useRouter(); 
+        const store = useStore(); 
         let from = reactive({
             email: '',
             password: '',
         });
         let error = ref('')
-
+        
         const login = async () => {
-
+            
             try {
                 await axios.post('/api/login', from).then(response=>{
                     if (response.data.success) {
@@ -60,7 +60,6 @@ export default {
             from,
             error,
             login,
-
         };
     },
 };

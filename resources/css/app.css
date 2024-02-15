@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+@import '../../public/plugins/fontawesome-free/css/all.min.css';
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import '../../public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css';
+@import '../../public/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import '../../public/plugins/jqvmap/jqvmap.min.css';
+@import '../../public/dist/css/adminlte.min.css';
+@import '../../public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css';
+@import '../../public/plugins/toastr/toastr.min.css';
+@import '../../public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css';
